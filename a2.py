@@ -8,6 +8,7 @@ def get_length(dna):
     >>> get_length('ATCG')
     4
     """
+    return len(dna)
 
 
 def is_longer(dna1, dna2):
@@ -21,7 +22,10 @@ def is_longer(dna1, dna2):
     >>> is_longer('ATCG', 'ATCGGA')
     False
     """
-
+    if len(dna1) > len(dna2):
+        return True
+    else:
+        return False
 
 def count_nucleotides(dna, nucleotide):
     """ (str, str) -> int
@@ -33,7 +37,7 @@ def count_nucleotides(dna, nucleotide):
     >>> count_nucleotides('ATCTA', 'G')
     0
     """
-
+    return dna.count(nucleotide)
 
 def contains_sequence(dna1, dna2):
     """ (str, str) -> bool
@@ -47,3 +51,11 @@ def contains_sequence(dna1, dna2):
     False
 
     """
+    return dna2 in dna1
+
+print(get_length("GATTACA"))
+print(is_longer("GATTACA","GATTCA"))
+print(is_longer('ATCG', 'AT'))
+print(is_longer('ATCG', 'ATCGGA'))
+print(count_nucleotides('ATCGGC', 'G'))
+print(contains_sequence('ATCGGC', 'GT'))

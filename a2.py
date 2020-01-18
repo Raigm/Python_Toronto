@@ -68,9 +68,23 @@ def is_valid_sequence(dna):
     C = dna.count("C")
     G = dna.count("G")
     nucleotides = A + T + C + G
-    if nucleotides< len(dna):
+    if nucleotides < len(dna):
         return False
     else:
         return True
+
+
+def insert_sequence(dna1, dna2, ind):
+    """(str, str, int) -> str
+
+    Return a string with the combination of the 2 DNA sequences, the index int shows where the dna2 will be inserted
+
+    >>> insert_sequence("CCGG", "AT", 2)
+    "CCATGG"
+
+    >>> insert_sequence("CC", "A", 2)
+    "CCA"
+    """
+    return dna1[:ind]+ dna2 + dna1[ind:]
 
 

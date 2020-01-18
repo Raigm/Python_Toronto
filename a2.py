@@ -108,3 +108,18 @@ def get_complement(nucleotide):
     else:
         None
 
+def get_complementary_sequence(dna):
+    """(str) -> str
+
+    Return the complementary DNA Wsequence
+
+    >>> get_complementary_sequence("TA")
+    AT
+    >>> get_complementary_sequence("CG")
+    GC
+    """
+    new = ""
+    for n in (dna):
+        complementary = get_complement(n)
+        new = new + complementary
+    return new

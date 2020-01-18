@@ -53,9 +53,24 @@ def contains_sequence(dna1, dna2):
     """
     return dna2 in dna1
 
-print(get_length("GATTACA"))
-print(is_longer("GATTACA","GATTCA"))
-print(is_longer('ATCG', 'AT'))
-print(is_longer('ATCG', 'ATCGGA'))
-print(count_nucleotides('ATCGGC', 'G'))
-print(contains_sequence('ATCGGC', 'GT'))
+def is_valid_sequence(dna):
+    """ (str) -> bool
+
+    Return True if the sequence contains the proper DNA elements
+
+    >>> is_valid_sequence("GAT")
+    True
+    >>> is_valid_sequence("PEDO")
+    False
+    """
+    A = dna.count("A")
+    T = dna.count("T")
+    C = dna.count("C")
+    G = dna.count("G")
+    nucleotides = A + T + C + G
+    if nucleotides< len(dna):
+        return False
+    else:
+        return True
+
+

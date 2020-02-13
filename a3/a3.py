@@ -40,7 +40,7 @@ def make_str_from_row(board, row_index):
     word = []
     for i in board[row_index]:
         word.append(i)
-    word_row = "".join(word)
+    word_row = str("".join(word))
     return word_row
 
 
@@ -57,7 +57,7 @@ def make_str_from_column(board, column_index):
     word = []
     for i in range(len(board)):
         word.append(board[i][column_index])
-    word_column = "".join(word)
+    word_column = str("".join(word))
     return word_column
 
 

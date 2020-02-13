@@ -40,8 +40,8 @@ def make_str_from_row(board, row_index):
     word = []
     for i in board[row_index]:
         word.append(i)
-    selected_word = "".join(word)
-    return selected_word
+    word_row = "".join(word)
+    return word_row
 
 
 def make_str_from_column(board, column_index):
@@ -53,6 +53,12 @@ def make_str_from_column(board, column_index):
     >>> make_str_from_column([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 1)
     'NS'
     """
+
+    word = []
+    for i in range(len(board)):
+        word.append(board[i][column_index])
+    word_column = "".join(word)
+    return word_column
 
 
 def board_contains_word_in_row(board, word):

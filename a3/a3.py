@@ -80,7 +80,6 @@ def board_contains_word_in_row(board, word):
     return False
 
 
-
 def board_contains_word_in_column(board, word):
     """ (list of list of str, str) -> bool
 
@@ -96,8 +95,9 @@ def board_contains_word_in_column(board, word):
     for row_index in range(len(board)):
         if word in make_str_from_column(board, row_index):
             return True
-        else:
-            return False
+
+    return False
+
 
 
 def board_contains_word(board, word):

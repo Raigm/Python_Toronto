@@ -17,6 +17,6 @@ list = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
 # print(board_contains_word_in_row([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'XSOB'))
 # "TRUE"
 
-print(board_contains_word_in_column(list, "AX"))
+print(board_contains_word_in_column(list, "lX"))
 
 

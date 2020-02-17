@@ -17,9 +17,6 @@ list = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
 # print(board_contains_word_in_row([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'XSOB'))
 # "TRUE"
 
-word = "ANT"
-for row_index in range(len(list)):
-    if word in make_str_from_row(list, row_index):
-        print(True)
+print(board_contains_word_in_column(list, "AX"))
 
 

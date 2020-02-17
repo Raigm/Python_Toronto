@@ -75,9 +75,10 @@ def board_contains_word_in_row(board, word):
     """
 
     for row_index in range(len(board)):
-        if word in make_str_from_row(board, row_index):
+        if word in make_str_from_row(board, row_index) and len(word)>0:
             return True
-        
+    return False
+
 
 
 def board_contains_word_in_column(board, word):
@@ -92,6 +93,11 @@ def board_contains_word_in_column(board, word):
     >>> board_contains_word_in_column([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'NO')
     False
     """
+    for row_index in range(len(board)):
+        if word in make_str_from_column(board, row_index):
+            return True
+        else:
+            return False
 
 
 def board_contains_word(board, word):

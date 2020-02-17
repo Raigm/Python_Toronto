@@ -77,8 +77,7 @@ def board_contains_word_in_row(board, word):
     for row_index in range(len(board)):
         if word in make_str_from_row(board, row_index):
             return True
-
-    return False
+        
 
 
 def board_contains_word_in_column(board, word):

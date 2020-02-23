@@ -31,6 +31,17 @@ print(word_score(word))
 player_info = ['Jonathan', 4]
 
 print(update_score(player_info, word))
-"""
->> > update_score(['Jonathan', 4], 'ANT')
-"""
+
+""" 
+>>> num_words_on_board([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], ['ANT', 'BOX', 'SOB', 'TO'])
+    3
+ """
+
+board = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
+words = ['ANT', 'BOX', 'SOB', 'TO']
+
+
+
+print(num_words_on_board(board, words))
+
+

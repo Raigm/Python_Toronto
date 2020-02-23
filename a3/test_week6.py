@@ -2,6 +2,7 @@
 from a3 import *
 
 list = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
+word = "AX2"
 
 # #testing functions
 # print(is_valid_word(["ALSE", "TU"], "TU"))
@@ -14,9 +15,11 @@ list = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
 # "NS"
 #
 #
-# print(board_contains_word_in_row([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'XSOB'))
-# "TRUE"
+print(board_contains_word_in_row(list, 'XSOB'))
+# "True"
 
-print(board_contains_word_in_column(list, "lX"))
+print(board_contains_word_in_column(list, "AX"))
+# "True"
 
-
+print(board_contains_word([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'ANTa'))
+# "True"

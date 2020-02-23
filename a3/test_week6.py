@@ -2,7 +2,7 @@
 from a3 import *
 
 list = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
-word = "DRUDGERY"
+word = "123456"
 
 # #testing functions
 # print(is_valid_word(["ALSE", "TU"], "TU"))
@@ -31,9 +31,9 @@ print(word_score(word))
 
 if len(word) >= 10:
     print (len(word)* 3)
-elif len(word) >= 6 and len(word) < 9 :
+elif len(word) >= 7 and len(word) < 10 :
     print(len (word) * 2)
-elif len(word) < 6 and len(word) >= 3:
+elif len(word) >= 3  and len(word) < 7:
     print(len(word) * 1 )
 else:
     print(0)

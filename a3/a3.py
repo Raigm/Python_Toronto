@@ -131,9 +131,9 @@ def word_score(word):
     """
     if len(word) >= 10:
         return (len(word) * 3)
-    elif len(word) >= 6 and len(word) < 9:
+    elif len(word) >= 7 and len(word) < 10:
         return (len(word) * 2)
-    elif len(word) < 6 and len(word) >= 3:
+    elif len(word) >= 3 and len(word) < 7:
         return (len(word) * 1)
     else:
         return (0)

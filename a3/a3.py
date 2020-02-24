@@ -177,7 +177,7 @@ def read_words(words_file):
     """
 
     line_list = [line.rstrip("\n") for line in open(words_file)]
-    print (line_list)
+    return line_list
 
 
 def read_board(board_file):

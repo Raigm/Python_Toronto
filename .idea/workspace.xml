@@ -17,8 +17,8 @@
       <file leaf-file-name="a3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a3/a3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="199" column="16" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
+            <state relative-caret-position="210">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -27,7 +27,7 @@
       <file leaf-file-name="a3_driver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a3/a3_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
+            <state relative-caret-position="-685">
               <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -459,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582575914874</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="final commit">
+      <created>1582576198826</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1582576198826</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,7 +542,8 @@
     <MESSAGE value="function word_score" />
     <MESSAGE value="function num_words" />
     <MESSAGE value="function read_words" />
-    <option name="LAST_COMMIT_MESSAGE" value="function read_words" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -687,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a3/a3_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
+        <state relative-caret-position="-685">
           <caret line="49" column="7" lean-forward="false" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
@@ -705,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/a3/a3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="199" column="16" lean-forward="false" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>

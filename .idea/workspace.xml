@@ -4,7 +4,6 @@
     <list default="true" id="50822e66-e645-4ed0-aba3-03c0a31796b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a3/a3.py" afterPath="$PROJECT_DIR$/a3/a3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a3/test_week6.py" afterPath="$PROJECT_DIR$/a3/test_week6.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="a3.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="a3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/a3/a3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
+            <state relative-caret-position="179">
+              <caret line="177" column="4" lean-forward="false" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_week6.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_week6.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/a3/test_week6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -446,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582497251207</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="function read_words">
+      <created>1582575049554</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1582575049554</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -521,7 +527,8 @@
     <MESSAGE value="function board_contains_word" />
     <MESSAGE value="function word_score" />
     <MESSAGE value="function num_words" />
-    <option name="LAST_COMMIT_MESSAGE" value="function num_words" />
+    <MESSAGE value="function read_words" />
+    <option name="LAST_COMMIT_MESSAGE" value="function read_words" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -681,18 +688,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a3/a3.py">
+    <entry file="file://$PROJECT_DIR$/a3/test_week6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
+        <state relative-caret-position="231">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a3/test_week6.py">
+    <entry file="file://$PROJECT_DIR$/a3/a3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="179">
+          <caret line="177" column="4" lean-forward="false" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
           <folding />
         </state>
       </provider>

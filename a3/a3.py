@@ -175,6 +175,14 @@ def read_words(words_file):
     Precondition: Each line of the file contains a word in uppercase characters
     from the standard English alphabet.
     """
+    file = open(words_file, "r")
+    words = ""
+
+    line_list = file.readlines()
+    for line in line_list:
+        words = words + line
+    print(words)
+    file.close()
 
 
 def read_board(board_file):

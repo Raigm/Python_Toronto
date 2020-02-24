@@ -15,22 +15,22 @@ word = "123456"
 # "NS"
 #
 #
-print(board_contains_word_in_row(list, 'XSOB'))
+# print(board_contains_word_in_row(list, 'XSOB'))
 # "True"
 
-print(board_contains_word_in_column(list, "AX"))
+# print(board_contains_word_in_column(list, "AX"))
 # "True"
 
-print(board_contains_word([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'ANTa'))
+# print(board_contains_word([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], 'ANTa'))
 # "True"
 
 word = "ANT"
-print(word_score(word))
+# print(word_score(word))
 "1"
 
 player_info = ['Jonathan', 4]
 
-print(update_score(player_info, word))
+# print(update_score(player_info, word))
 
 """ 
 >>> num_words_on_board([['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']], ['ANT', 'BOX', 'SOB', 'TO'])
@@ -41,7 +41,8 @@ board = [['A', 'N', 'T', 'T'], ['X', 'S', 'O', 'B']]
 words = ['ANT', 'BOX', 'SOB', 'TO']
 
 
+# print(num_words_on_board(board, words))
 
-print(num_words_on_board(board, words))
+print(read_words("wordlist1.txt"))
 
 

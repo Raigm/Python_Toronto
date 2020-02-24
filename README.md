@@ -1,2 +1,2 @@
 # Python_Toronto
-Solutions to programming assignmets from the Coursera's course, Learn to program: Fundamentals.
+Solutions to programming assignments from the Coursera's course, Learn to program: Fundamentals.
